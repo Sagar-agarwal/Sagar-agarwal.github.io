@@ -1,0 +1,20 @@
+// Colors
+$color-primary-regular: #55c57a;
+$color-primary-light: lighten($color-primary-regular, 20%);
+$color-primary-dark: darken($color-primary-regular, 20%);
+
+$color-white: #eee;
+$color-black: #111;
+$color-grey-lightest: rgba($color-black, 0.01);
+$color-grey-light: rgba($color-black, 0.05);
+
+// Gradients
+$color-gradient-green: linear-gradient(
+	to right bottom,
+	rgba($color-primary-light, 0.8),
+	rgba($color-primary-dark, 0.8)
+);
+
+//  Typography
+$font-family: 'lato', san-serif;
+$font-color-default: #777;
