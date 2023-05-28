@@ -6,16 +6,16 @@
 	.heading {
 		@include alignCenterParent($width: 50%, $height: 100%);
 
-		&__primary {
+		& .heading__primary {
 			@include alignCenter($top: 40%, $left: 50%);
-			&-text {
-				&--main {
+			& .heading__primary-text {
+				& .heading__primary-text--main {
 					font-size: 3rem;
 					display: block;
 					text-transform: uppercase;
 					color: $color-primary-regular;
 				}
-				&--sub {
+				& .heading__primary-text--sub {
 					font-size: 2.5rem;
 					display: block;
 				}
@@ -24,10 +24,10 @@
 	}
 	.hero {
 		@include alignCenterParent($width: 50%, $height: 100%);
-		&__box {
+		& .hero__box {
 			@include alignCenter($top: 40%, $left: 40%);
 		}
-		&__img {
+		& .hero__img {
 			max-width: 100%;
 		}
 	}

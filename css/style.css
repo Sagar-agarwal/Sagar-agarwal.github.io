@@ -32,29 +32,29 @@ body {
     width: 50%;
     height: 100%;
     position: relative; }
-    .header .heading__primary {
+    .header .heading .heading__primary {
       position: absolute;
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%); }
-      .header .heading__primary-text--main {
+      .header .heading .heading__primary .heading__primary-text .heading__primary-text--main {
         font-size: 3rem;
         display: block;
         text-transform: uppercase;
         color: #55c57a; }
-      .header .heading__primary-text--sub {
+      .header .heading .heading__primary .heading__primary-text .heading__primary-text--sub {
         font-size: 2.5rem;
         display: block; }
   .header .hero {
     width: 50%;
     height: 100%;
     position: relative; }
-    .header .hero__box {
+    .header .hero .hero__box {
       position: absolute;
       top: 40%;
       left: 40%;
       transform: translate(-50%, -50%); }
-    .header .hero__img {
+    .header .hero .hero__img {
       max-width: 100%; }
 
 .nav__list {
